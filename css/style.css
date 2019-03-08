@@ -1,0 +1,88 @@
+@import url(//db.onlinewebfonts.com/c/7de2ad6bf23aa1afb86604f404103bf1?family=Tilda+Grande);
+
+body {
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}
+
+#g1 {
+    padding: 10px;
+    font-size: 30px;
+}
+
+#g2 {
+    /* padding: 5px; */
+    font-size: 15px;
+}
+
+.container {
+    /* align-content: left; */
+    background: #333;
+    overflow: hidden;
+    color: white;
+    padding: 5px 0 20px 0;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+
+.container a {
+    /* float: left; */
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.container a:hover {
+    /* background: #ddd; */
+    color: red;
+}
+
+.second-page .image-profile {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border-width: 1px;
+    box-shadow: 0 0 10px 0.4px cornflowerblue;
+    margin-top: 4%;
+}
+
+.describe-text {
+    display: block;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#front-bar {
+    /* margin: 2px; */
+    padding: 20px;
+}
+
+h1.logo {
+    font-family: "Tilda Grande";
+}
+
+#about {
+    margin: 20px;
+    box-shadow: 0 0 10px 0.4px cornflowerblue;
+}
+
+#tell-about {
+    /* border: 1px solid black; */
+    margin: auto;
+    font-size: 25px;
+    padding: 2px 100px 30px 100px; /* top right bottom left*/
+    letter-spacing: 0.5px;
+}
+
+#social {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 10px 0.4px black;
+}
